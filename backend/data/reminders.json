@@ -1,0 +1,20 @@
+[
+  {
+    "id": "b5e1f4df-21a6-441d-ace2-9a942a00c726",
+    "created_at": "2026-09-28T04:51:26.561411+00:00",
+    "patient_phone": "9493474110",
+    "medicine_name": "dollo 650",
+    "time_of_day": "10:22",
+    "notes": null,
+    "fcm_token": null
+  },
+  {
+    "id": "9ef432b9-51fe-42d5-a57d-74c53b3647cf",
+    "created_at": "2026-09-28T05:40:54.977039+00:00",
+    "patient_phone": "9493474110",
+    "medicine_name": "dolo 650",
+    "time_of_day": "11:11",
+    "notes": null,
+    "fcm_token": null
+  }
+]

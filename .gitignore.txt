@@ -1,0 +1,7 @@
+.env
+.venv/
+node_modules/
+dist/
+__pycache__/
+backend/data/
+firebase-key.json

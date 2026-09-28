@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f3f6fb;
+  color: #1a2233;
+}
+.app { max-width: 760px; margin: 0 auto; padding: 16px; }
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 8px; margin-bottom: 16px;
+}
+header h1 { font-size: 1.4rem; margin: 0; }
+.header-right { display: flex; align-items: center; gap: 12px; }
+.status { font-size: 0.85rem; font-weight: 600; }
+.status.online { color: #0a8f4b; }
+.status.offline { color: #c0392b; }
+nav { display: flex; gap: 4px; }
+.tab {
+  padding: 8px 14px; border: none; border-radius: 999px; background: #e3e9f5;
+  cursor: pointer; font-weight: 600; color: #1a2233;
+}
+.tab.active { background: #2454ff; color: white; }
+
+.card {
+  background: white; border-radius: 14px; padding: 18px; margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.card h2 { margin-top: 0; font-size: 1.1rem; }
+.card h3 { font-size: 0.95rem; margin-bottom: 6px; }
+
+.field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; font-size: 0.85rem; flex: 1; }
+.field span { font-weight: 600; color: #45526b; }
+input, select, textarea {
+  padding: 10px; border-radius: 8px; border: 1px solid #d3dbea; font-size: 1rem;
+  font-family: inherit; width: 100%;
+}
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+
+button {
+  padding: 10px 16px; border: none; border-radius: 8px; background: #2454ff;
+  color: white; font-weight: 600; cursor: pointer; font-size: 0.95rem;
+}
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+button.secondary { background: #e3e9f5; color: #1a2233; }
+
+.result { margin-top: 14px; padding: 14px; border-radius: 10px; background: #eef2fb; }
+.result.urgent { background: #fdecea; border: 1px solid #e57373; }
+.urgent-banner { color: #c0392b; font-weight: 700; margin: 0 0 8px; }
+.error { color: #c0392b; font-size: 0.9rem; }
+.tip { background: #eef2fb; padding: 12px; border-radius: 8px; }
+
+.facility-list { list-style: none; padding: 0; margin: 10px 0 0; }
+.facility-list li { padding: 8px 0; border-bottom: 1px solid #eef1f7; }
+
+.records-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.records-table th, .records-table td { text-align: left; padding: 8px; border-bottom: 1px solid #eef1f7; }
+
+footer { text-align: center; margin: 24px 0; color: #7a869a; font-size: 0.8rem; }
+/* --- PHC locator --- */
+.locator-controls { align-items: center; margin-bottom: 4px; }
+.muted { color: #6b7893; font-size: 0.82rem; margin: 4px 0; }
+.note { background: #fff8e1; border: 1px solid #ffe08a; padding: 8px 10px; border-radius: 8px; font-size: 0.85rem; }
+.call-108 {
+  background: #c0392b; color: white; padding: 10px 14px; border-radius: 8px;
+  font-weight: 700; text-decoration: none; font-size: 0.95rem;
+}
+.pin {
+  width: 30px; height: 30px; border-radius: 50%; color: white; font-weight: 700; font-size: 13px;
+  display: flex; align-items: center; justify-content: center; border: 2px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.pin.you { background: #2454ff; }
+.pin.fac { background: #e67e22; }
+.pin.fac.govt { background: #0a8f4b; }
+.facility-list { list-style: none; padding: 0; margin: 12px 0 0; }
+.facility-list li { padding: 10px 0; border-bottom: 1px solid #eef1f7; }
+.fac-head { display: flex; gap: 10px; align-items: flex-start; }
+.pin-inline {
+  flex: 0 0 26px; height: 26px; border-radius: 50%; background: #e67e22; color: white;
+  font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.pin-inline.govt { background: #0a8f4b; }
+.fac-actions { display: flex; gap: 14px; flex-wrap: wrap; margin: 6px 0 0 36px; font-size: 0.85rem; }
+.fac-actions a { color: #2454ff; text-decoration: none; font-weight: 600; }
+button.link { background: none; color: #2454ff; padding: 0; font-size: 0.85rem; }

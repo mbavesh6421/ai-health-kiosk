@@ -1,0 +1,101 @@
+[
+  {
+    "id": "c402baea-75d2-412f-b77c-b815fda15a80",
+    "created_at": "2026-09-28T04:45:05.298446+00:00",
+    "patient_name": "bavesh ",
+    "age": null,
+    "phone": null,
+    "village_or_area": "nellore",
+    "symptoms": "fever for past two days",
+    "advice_given": "Rest, drink plenty of fluids, and take paracetamol if needed for the fever. See a doctor if fever lasts more than 3 days, exceeds 103°F/39.4°C, or is accompanied by rash, stiff neck, or difficulty breathing.",
+    "language": "en"
+  },
+  {
+    "id": "e258d28a-3ac8-42b1-8247-89b1062b9de7",
+    "created_at": "2026-09-28T04:53:15.749268+00:00",
+    "patient_name": "bavesh ",
+    "age": null,
+    "phone": null,
+    "village_or_area": "Rampur",
+    "symptoms": "fever for past two days",
+    "advice_given": "Rest, drink plenty of fluids, and take paracetamol if needed for the fever. See a doctor if fever lasts more than 3 days, exceeds 103°F/39.4°C, or is accompanied by rash, stiff neck, or difficulty breathing.",
+    "language": "te"
+  },
+  {
+    "id": "c34a8a35-17f0-49ab-b59d-2641482fd892",
+    "created_at": "2026-09-28T04:59:51.140505+00:00",
+    "patient_name": "bavesh",
+    "age": null,
+    "phone": null,
+    "village_or_area": "rampur",
+    "symptoms": "feaver",
+    "advice_given": "Thanks for sharing your symptoms. For anything beyond mild, temporary discomfort, it's best to visit your nearest Primary Health Centre (PHC) for a proper check-up. Use the locator tab to find one near you.",
+    "language": "te"
+  },
+  {
+    "id": "0ce1557e-7e56-4824-a488-d282096e9cbb",
+    "created_at": "2026-09-28T05:01:40.411848+00:00",
+    "patient_name": "bavesh",
+    "age": null,
+    "phone": null,
+    "village_or_area": "rampur",
+    "symptoms": "feaver",
+    "advice_given": "Thanks for sharing your symptoms. For anything beyond mild, temporary discomfort, it's best to visit your nearest Primary Health Centre (PHC) for a proper check-up. Use the locator tab to find one near you.",
+    "language": "te"
+  },
+  {
+    "id": "c515248b-5314-4356-bd17-284ba749b1d1",
+    "created_at": "2026-09-28T05:36:12.547254+00:00",
+    "patient_name": "bavesh",
+    "age": null,
+    "phone": null,
+    "village_or_area": "nellore",
+    "symptoms": "i have fever for past few days",
+    "advice_given": "Rest, drink plenty of fluids, and take paracetamol if needed for the fever. See a doctor if fever lasts more than 3 days, exceeds 103°F/39.4°C, or is accompanied by rash, stiff neck, or difficulty breathing.",
+    "language": "te"
+  },
+  {
+    "id": "8d973972-1194-42f3-9309-fd9f0d6ce9f6",
+    "created_at": "2026-09-28T05:49:17.516861+00:00",
+    "patient_name": "bavesh",
+    "age": null,
+    "phone": null,
+    "village_or_area": "nellore",
+    "symptoms": "I am suffering from fever for the past two days",
+    "advice_given": "Rest, drink plenty of fluids, and take paracetamol if needed for the fever. See a doctor if fever lasts more than 3 days, exceeds 103°F/39.4°C, or is accompanied by rash, stiff neck, or difficulty breathing.",
+    "language": "en"
+  },
+  {
+    "id": "5bfc8e0f-cd47-47bf-8632-179883b9945d",
+    "created_at": "2026-09-28T05:53:22.376519+00:00",
+    "patient_name": "bavesh",
+    "age": null,
+    "phone": null,
+    "village_or_area": "nellore",
+    "symptoms": "రెండు రోజులుగా నాకు జ్వరంగా ఉంది",
+    "advice_given": "Thanks for sharing your symptoms. For anything beyond mild, temporary discomfort, it's best to visit your nearest Primary Health Centre (PHC) for a proper check-up. Use the locator tab to find one near you.",
+    "language": "te"
+  },
+  {
+    "id": "deb0a0a6-3a78-4f64-bb4d-df6cbcd4e322",
+    "created_at": "2026-09-28T06:06:18.391449+00:00",
+    "patient_name": "doramon",
+    "age": null,
+    "phone": null,
+    "village_or_area": "tiruvallur",
+    "symptoms": "నాకు రెండు రోజులుగా జ్వరముగా",
+    "advice_given": "Thanks for sharing your symptoms. For anything beyond mild, temporary discomfort, it's best to visit your nearest Primary Health Centre (PHC) for a proper check-up. Use the locator tab to find one near you.",
+    "language": "te"
+  },
+  {
+    "id": "cbb9dd10-e3c3-49cd-8dff-bedfaa34d0de",
+    "created_at": "2026-09-28T06:52:54.188132+00:00",
+    "patient_name": "Anonymous",
+    "age": null,
+    "phone": null,
+    "village_or_area": null,
+    "symptoms": "fever for past few days",
+    "advice_given": "Rest, drink plenty of fluids, and take paracetamol if needed for the fever. See a doctor if fever lasts more than 3 days, exceeds 103°F/39.4°C, or is accompanied by rash, stiff neck, or difficulty breathing.",
+    "language": "en"
+  }
+]
